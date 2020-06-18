@@ -1,0 +1,19 @@
+Form is an HTML Element
+
+Form is the way we send information to the SERVER
+
+A form has the following elements:
+
+INPUTS: text, radio, checkboxes, text fields, and text areas
+
+reference: https://www.w3schools.com/html/html_forms.asp
+
+SUBMIT BUTTON: when submit button is pressed, the browser sends all the information
+contained in the fields as input the program on the server which is spe specified in the ACTION ATTRIBUTE of the form
+
+The program on the server runs taking the provided client browser form data as input, and transmits it to the server.
+
+The web browser wraps up all the field data into either a POST or GET request, and sends that package of data to the server on the HTTP
+PIPE that is connecting the web browser and the server.
+
+
