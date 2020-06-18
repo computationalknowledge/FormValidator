@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Text Input Control</title>
+   </head>
+	
+   <body>form operation:
+       browser sends data to server <br>
+       either with post or get encoding <br>
+       server Operating System with its TCPIP stack gives your form data <br>
+       to STDIN standard input PIPE to the program specified in the action 
+       attribute of the form   
+       <BR> the program runs and delivers its output as HTML to STDOUT handle
+        of the server computer's operating system, and that HTML is received 
+        <br> by the request client computer and loaded into browser to displayed
+       <h3></h3>
+      <form action="myserverprogram.js" method="post">
+          get encoding means that the URL which the browser
+          <br>
+          sends to the server has the field names and field values 
+          <br> written into the URL as a series of name value pairs
+       
+         POST sends the data into TCP : It is not visible. You can use<p>
+             Fiddler to do packet sniffing to visualize the TCP packets 
+             <BR> and their data payload contents
+         </p>
+<hr>
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+
+         <input type = "submit" name = "submit" />
+
+      </form>
+   </body>
+	
+</html>
